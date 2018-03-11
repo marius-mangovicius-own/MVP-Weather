@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="search_name">Search</string>
+    <string name="temp_with_celsius_sign">%1$s °C</string>
+    <string name="temp_with_celsius_sign_high_and_low">%1$s °C / %2$s °C</string>
+    <string name="weather_icon">TODO</string>
+    <string name="humidity">Humidity: %1$s</string>
+    <string name="wind_speed_kph">Wind speed: %1$s kph</string>
+    <string name="feels_like">Feels like: %1$s °C</string>
+</resources>

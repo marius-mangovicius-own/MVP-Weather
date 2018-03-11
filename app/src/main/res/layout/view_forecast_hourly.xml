@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_small">
+
+    <ImageView
+        android:id="@+id/imageViewHourly"
+        android:layout_width="@dimen/small_image_width"
+        android:layout_height="@dimen/small_image_height"
+        android:layout_margin="@dimen/margin_small"
+        android:padding="@dimen/padding_tiny" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/imageViewHourly"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/currentHourHourly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_tiny"
+            android:textSize="@dimen/text_small" />
+
+        <TextView
+            android:id="@+id/weatherHourly"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_tiny"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_xsmall" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tempHourly"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="@dimen/margin_tiny"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_xsmall" />
+
+
+</RelativeLayout>
